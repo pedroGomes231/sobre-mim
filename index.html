@@ -11,20 +11,20 @@
     <body>
         <header>
             <ul>
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Formação academica</a></li>
-                <li><a href="#">Hard skills</a></li>
-                <li><a href="#">Soft skills</a></li>
-                <li><a href="#">Meus porjetos</a></li>
-                <li><a href="#">Meus artigos</a></li>
-                <li><a href="#">Última seção</a></li>
+                <li><a href="#sobreMim">Sobre mim</a></li>
+                <li><a href="#formacaoAcademica">Formação academica</a></li>
+                <li><a href="#hardSkills">Hard skills</a></li>
+                <li><a href="#softSkills">Soft skills</a></li>
+                <li><a href="#meusProjetos">Meus porjetos</a></li>
+                <li><a href="#meusArtigos">Meus artigos</a></li>
+                <li><a href="#rodape">Última seção</a></li>
             </ul>
     
         </header>
 
-        <section>
+        <section id="sobreMim">
         <h1 >Sobre mim</h1>
-        <p>Sou instrutor de informação profissional no SENAI São Paulo</p>
+        <p>Sou o Pedro Gomes aluno no SENAI São Paulo</p>
         <img src="pedro.jpg" alt="Homem negro com roupa branco" width="200" title="Homen negro com roupa branca ">
         <p>
             <li>
@@ -39,7 +39,7 @@
             </li>
         </p>
         </section>
-        <section>
+        <section id="formacaoAcademica">
             <h2>Formação academica</h2>
             <p>Sou estudante do 2° do SESI vila leopoldina</p>
             <p>Estou cursando o SENAI de Tecnico de Desenvolvimento de Sistema</p>
@@ -47,7 +47,7 @@
             <p>Iniciante em Lógica de progamação</p>
         </section>
 
-        <section>
+        <section id="hardSkills">
             <h2>Hard skills</h2>
             <p>
                 <li>Lógica de progamação</li>
@@ -57,7 +57,7 @@
             </p>
         </section>
 
-        <section>
+        <section id="softSkills">
             <h2>Soft skills</h2>
             <p>Sou responsavel</p>
             <p>Organizado</p>
@@ -66,7 +66,7 @@
 
         </section>
 
-        <section>
+        <section id="meusProjetos">
             <h2>Meus projetos</h2>
             <p>
                 <li>
@@ -76,11 +76,22 @@
             </p>
         </section>
 
-        <section>
+        <section id="meusArtigos">
             <h2>Meus artigos</h2>
         </section>
 
-        <footer>
+        <section id="contato">
+            <h2>Entre em contato comigo</h2>
+            <form>
+                <input type="text" name="nome">
+                <input type="email" name="email">
+                <textarea type="mensagem" rows="5" cols="50"></textarea>
+                <input type="submit" name="botaoEnviar">
+            </form>
+
+        </section>
+
+        <footer id="rodape">
             <p>Links úteis</p>
             <p>
                 <li>
@@ -89,7 +100,7 @@
                 </li>
             </p>
 
-            <p>Copyright</p>
+            <p>Desenvolvido por Pedro Gomes</p>
         </footer>
     </body>
 </html>
