@@ -1,79 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
+        <!-- Meta informações sobre a pagina -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sobre mim</title>
 
-        <!-- Meta imformações sobre a página -->
-         <meta charset="utf-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Sobre mim</title>
+        <!-- CSS Reset -->
+        <link rel="stylesheet" href="reset.css">
+
+        <!-- CSS externo (arquivo style) -->
+        <link rel="stylesheet" href="style.css">
+
+        <!-- CSS interno (tag style) -->
+        <style>
+            /* body{
+                background-color: #00ff00 ;
+                } */
+        </style>
     </head>
-    <!-- HTML não tem pescoço!! -->
     <body>
-        <header>
-            <ul>
-                <li><a href="#sobreMim">Sobre mim</a></li>
-                <li><a href="#formacaoAcademica">Formação academica</a></li>
-                <li><a href="#hardSkills">Hard skills</a></li>
-                <li><a href="#softSkills">Soft skills</a></li>
-                <li><a href="#meusProjetos">Meus porjetos</a></li>
-                <li><a href="#meusArtigos">Meus artigos</a></li>
-                <li><a href="#rodape">Última seção</a></li>
-            </ul>
-    
+        <header> 
+            
+            <nav>
+                <h1>
+                    PORTFÓLIO
+                </h1>
+                <ul>
+                    <li><a href="#sobreMim">Sobre mim</a></li>
+                    <li><a href="#formaçãoAcademica">Formação</a></li>
+                    <li><a href="#hardSkills">Hard skills</a></li>
+                    <li><a href="#softSkills">Soft skills</a></li>
+                    <li><a href="#meusProjetos">Projetos</a></li>
+                    <li><a href="#meusArtigos">Artigos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </header>
-
+        
         <section id="sobreMim">
-        <h1 >Sobre mim</h1>
-        <p>Sou o Pedro Gomes aluno no SENAI São Paulo</p>
-        <img src="pedro.jpg" alt="Homem negro com roupa branco" width="200" title="Homen negro com roupa branca ">
-        <p>
+            <h1>Sobre mim</h1>
+            <p>Sou aluno de tecnologia da informação no SENAI São paulo.</p>
+            <img src="pedro.jpg" alt="Foto de um homem preto de roupa branca." width="200" title="Foto de um homem branco com bigode e cavanhaque."> 
+            <ul>
             <li>
-            <a href="https://github.com/pedroGomes231" title="Clique aqui para acessar meu GitHub" target="_blank">Olhe o meu perfil no GitHub</a>
+                <a href="https://github.com/pedroGomes231" title="Clique para acessar meu portfólio no GitHub" target="_blank">Acesse o meu Github</a>
             </li>
-        </p>
-
-        <p>
             <li>
-            <a href="https://br.linkedin.com/" title="Clique aqui para acessar meu LinkedIn" 
-            target="_blank">Acesse o meu LinkedIn</a>
+                <a href="https://www.linkedin.com" title="Clique para acessar meu perfil no linkedIn"target="_blank">Acesse o meu LinkedIn</a>
             </li>
-        </p>
+            </ul>
+            
         </section>
-        <section id="formacaoAcademica">
-            <h2>Formação academica</h2>
-            <p>Sou estudante do 2° do SESI vila leopoldina</p>
-            <p>Estou cursando o SENAI de Tecnico de Desenvolvimento de Sistema</p>
-            <p>Tenho o ensino fundamental completo</p>
-            <p>Iniciante em Lógica de progamação</p>
+
+        <section id="formaçãoAcademica"> 
+            <h2>Formação acadêmica</h2>
+            <p>Estou em processo de formação no SESI/SENAI, Atualmente cursando Desenvolvimento de sistemas no SENAI (Ipiranga) e completando o 2° do ensino medio no SESI-414(Vila Leopoldina) </p>
         </section>
 
         <section id="hardSkills">
             <h2>Hard skills</h2>
-            <p>
-                <li>Lógica de progamação</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>GitHub</li>
-            </p>
+            <ul>
+            <li>
+                Lógica de programação
+            </li>
+            <li>
+                html
+            </li>
+            <li>
+                JavaScript
+            </li>
+            <li>
+                linguagem de marcação
+            </li>
+            </ul>
+
         </section>
 
         <section id="softSkills">
             <h2>Soft skills</h2>
-            <p>Sou responsavel</p>
-            <p>Organizado</p>
-            <p>Amigavel</p>
-            <p>Bom em trabalho em equipe</p>
+            <ul>
+            <li>
+                Facilidade em aprendizado
+            </li>
+            <li>
+                Educado
+            </li>
+            <li>
+                Organizado
+            </li>
+            <li>
+                disciplinado
+            </li>
+            <li>
+                responsável
+            </li>
+            <li>
+                trabalho bem em equipe.
+            </li>
+            </ul>
 
         </section>
 
         <section id="meusProjetos">
             <h2>Meus projetos</h2>
-            <p>
+            <p> Ao longo do meu curso no SENAI, desenvolvi um jogo que se passa no espaço. 
+            <ul>
                 <li>
-                <a href="https://github.com/pedroGomes231?tab=repositories" title="Clique aqui para acessar meus projetos" 
-                target="_blank">Acesse o meus projetos</a>
+                <a href="pedrogomes231.github.io/lopal-moonlan/" target="_blank"> Acesse o link para se divertir</a>.
                 </li>
+           </ul>
             </p>
+            <p>O jogo consiste em pousar o foguete em segurança sendo assim uma velocidade horizontal e vertical menor ou igual a 5, caso não consiga, tente novamente!!!</p>
+
+            
+
         </section>
 
         <section id="meusArtigos">
@@ -85,22 +126,25 @@
             <form>
                 <input type="text" name="nome">
                 <input type="email" name="email">
-                <textarea type="mensagem" rows="5" cols="50"></textarea>
-                <input type="submit" name="botaoEnviar">
+                <textarea name="mensagem" rows="5" cols="50"></textarea>
+                <input type="submit" name="botaoEnviar" value="solicitar contato">
+            
             </form>
-
         </section>
 
         <footer id="rodape">
             <p>Links úteis</p>
-            <p>
-                <li>
-                <a href="https://pedrogomes231.github.io/lopal-moonlander/" title="Clique aqui para acessar meu jogo" 
-                target="_blank">Acesse o meu jogo</a>
-                </li>
-            </p>
 
-            <p>Desenvolvido por Pedro Gomes</p>
+            <a href="https://sp.senai.br/unidade/automobilistica/" target="_blank">Descubra sobre meu SENAI</a>
+            <p>
+            <a href="https://github.com/Prof-Edgard" target="_blank">Portfólio do meu professor</a>
+            </p>
+            <p>
+                <a href="https://github.com/JoaoRoccella" target="_blank">Portfólio do meu professor</a>
+                </p>
+                
+            <p>desenvolvido por leozinho</p>
         </footer>
+        
     </body>
-</html>
+</html> 
