@@ -1,62 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <!-- Meta informações sobre a pagina -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>sobre mim</title>
+<html lang="pt-br" data-theme="dark, daltonico">
 
-        <!-- CSS Reset -->
-        <link rel="stylesheet" href="reset.css">
+<head>
+    <!-- Meta informações sobre a pagina -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sobre mim</title>
 
-        <!-- CSS externo (arquivo style) -->
-        <link rel="stylesheet" href="style.css">
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="reset.css">
 
-        <!-- CSS interno (tag style) -->
-        <style>
-            /* body{
+    <!-- CSS externo (arquivo style) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS interno (tag style) -->
+    <style>
+        /* body{
                 background-color: #00ff00 ;
                 } */
-        </style>
-    </head>
-    <body>
-        <header> 
-            
-            <nav>
-                <h1>
-                    PORTFÓLIO
-                </h1>
-                <ul>
-                    <li><a href="#sobreMim">Sobre mim</a></li>
-                    <li><a href="#formaçãoAcademica">Formação</a></li>
-                    <li><a href="#hardSkills">Hard skills</a></li>
-                    <li><a href="#softSkills">Soft skills</a></li>
-                    <li><a href="#meusProjetos">Projetos</a></li>
-                    <li><a href="#meusArtigos">Artigos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <section id="sobreMim">
-            <h1>Sobre mim</h1>
-            <p>Sou aluno de tecnologia da informação no SENAI São paulo.</p>
-            <img src="pedro.jpg" alt="Foto de um homem preto de roupa branca." width="200" title="Foto de um homem branco com bigode e cavanhaque."> 
-            <ul>
-            <li>
-                <a href="https://github.com/pedroGomes231" title="Clique para acessar meu portfólio no GitHub" target="_blank">Acesse o meu Github</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com" title="Clique para acessar meu perfil no linkedIn"target="_blank">Acesse o meu LinkedIn</a>
-            </li>
-            </ul>
-            
-        </section>
+    </style>
+</head>
 
-        <section id="formaçãoAcademica"> 
-            <h2>Formação acadêmica</h2>
-            <p>Estou em processo de formação no SESI/SENAI, Atualmente cursando Desenvolvimento de sistemas no SENAI (Ipiranga) e completando o 2° do ensino medio no SESI-414(Vila Leopoldina) </p>
-            <div class=" cards-em-coluna">
+<body>
+    <header>
+
+        <nav>
+            <h1>
+                PORTFÓLIO
+            </h1>
+            <ul>
+                <li><a href="#sobreMim">Sobre mim</a></li>
+                <li><a href="#formaçãoAcademica">Formação</a></li>
+                <li><a href="#hardSkills">Hard skills</a></li>
+                <li><a href="#softSkills">Soft skills</a></li>
+                <li><a href="#meusProjetos">Projetos</a></li>
+                <li><a href="#meusArtigos">Artigos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><span id="botao-tema">🌚</span></li>
+                <li><span id="botao-daltonico">😲</span></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobreMim">
+        <h1>Sobre mim</h1>
+        <img class="pedro-foto" src="pedro.jpg" alt="Foto de um homem preto de roupa branca." width="200"
+            title="Foto de um homem negro todo de branco.">
+        <p>Me chamo Pedro Gomes de Oliveira sou estudante de tecnologia da informação no SENAI São paulo
+            e aluno da instituicao SESI Vila Leopoldina, tenho 15 anos e busco me formar em tecnologia da
+            informação(TI),
+            arrumar um bom trabalho na area , criar uma familia e ter uma vida feliz.Procuro tambem me formar fora do
+            país
+            pois vou ter mais oportunidades de emprego e uma qualidade de vida bem melhor😍👌.</p>
+        <ul>
+            <li>
+                <a href="https://github.com/pedroGomes231" title="Clique para acessar meu portfólio no GitHub"
+                    target="_blank">Acesse o meu Github</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com" title="Clique para acessar meu perfil no linkedIn"
+                    target="_blank">Acesse o meu LinkedIn</a>
+            </li>
+        </ul>
+
+    </section>
+
+    <section id="formaçãoAcademica">
+        <h2>Formação acadêmica</h2>
+        <p>Estou em processo de formação no SESI/SENAI, Atualmente cursando Desenvolvimento de sistemas no SENAI
+            (Ipiranga) e completando o 2° do ensino medio no SESI-414(Vila Leopoldina) </p>
+        <div class=" cards-em-coluna">
             <ul class="card">
                 <li class="titulo-card">tecnico de Desenvolvimento de sistemas</li>
                 <li class="ano-card">2026</li>
@@ -67,104 +80,187 @@
                 <li class="ano-card">2026</li>
                 <li class="intituicao-card">SESI vila leopoldina</li>
 
-            </div>
+        </div>
 
-            
 
-        </section>
 
-        <section id="hardSkills">
-            <h2>Hard skills</h2>
-            <div class=" cards-em-coluna">
-                <ul class="card">
-                    <li class="titulo-card">Lógica de programação 💀</li>
-                    <li class="descri-card">Materia para pessoas inteligentes</li>
-                </ul>
-                <ul class="card">
-                    <li class="titulo-card">HTML >/> </li>
-                    <li class="ano-card">Materia para pessoas inteligentes</li>
-    
-                </div>  
-                <ul class="card">
-                    <li class="titulo-card">JavaScript ☕
-                      <li class="descri-card">Materia para pessoas inteligentes</li>
-                </ul>
+    </section>
 
-                <ul class="card">
-                    <li class="titulo-card">linguagem de marcação >li
-                      <li class="descri-card">Materia para pessoas inteligentes</li>
-                </ul>
+    <section id="hardSkills">
+        <h2>Hard skills</h2>
+        <div class=" cards-em-linha">
+            <ul class="card">
+                <li class="titulo-card">Lógica de programação 💀</li>
+                <li class="descri-card">Materia para pessoas inteligentes</li>
+            </ul>
+            <ul class="card">
+                <li class="titulo-card">HTML >/> </li>
+                <li class="ano-card">Materia para pessoas inteligentes</li>
 
-        </section>
-
-        <section id="softSkills">
-            <h2>Soft skills</h2>
-            <ul>
-            <li>
-                Facilidade em aprendizado
-            </li>
-            <li>
-                Educado
-            </li>
-            <li>
-                Organizado
-            </li>
-            <li>
-                disciplinado
-            </li>
-            <li>
-                responsável
-            </li>
-            <li>
-                trabalho bem em equipe.
-            </li>
+            </ul>
+            <ul class="card">
+                <li class="titulo-card">JavaScript ☕
+                <li class="descri-card">Materia para pessoas inteligentes</li>
             </ul>
 
-        </section>
+            <ul class="card">
+                <li class="titulo-card">linguagem de marcação >li
+                <li class="descri-card">Materia para pessoas inteligentes</li>
+            </ul>
+        </div>
 
-        <section id="meusProjetos">
-            <h2>Meus projetos</h2>
-            <p> Ao longo do meu curso no SENAI, desenvolvi um jogo que se passa no espaço. 
-            <ul>
-                <li>
+    </section>
+
+    <section id="softSkills">
+        <h2>Soft skills</h2>
+        <div class=" cards-em-linha">
+            <ul class="card">
+                <li class="titulo-card">Facilidade em aprendizado 💀</li>
+
+            </ul>
+            <ul class="card">
+                <li class="titulo-card">Educado </li>
+
+            </ul>
+            <ul class="card">
+                <li class="titulo-card">Organizado
+
+            </ul>
+
+            <ul class="card">
+                <li class="titulo-card">disciplinado
+
+            </ul>
+            <ul class="card">
+                <li class="titulo-card"> responsável
+
+            </ul>
+            <ul class="card">
+                <li class="titulo-card"> trabalho bem em equipe.
+
+            </ul>
+        </div>
+
+    </div>
+    </section>
+    <section id="meusProjetos">
+        <h2>Meus projetos</h2>
+        <p> Ao longo do meu curso no SENAI, desenvolvi um jogo que se passa no espaço.
+        <ul>
+            <li>
                 <a href="pedrogomes231.github.io/lopal-moonlan/" target="_blank"> Acesse o link para se divertir</a>.
-                </li>
-           </ul>
-            </p>
-            <p>O jogo consiste em pousar o foguete em segurança sendo assim uma velocidade horizontal e vertical menor ou igual a 5, caso não consiga, tente novamente!!!</p>
+            </li>
+        </ul>
+        </p>
+        <p>O jogo consiste em pousar o foguete em segurança sendo assim uma velocidade horizontal e vertical menor ou
+            igual a 5, caso não consiga, tente novamente!!!</p>
 
-            
 
-        </section>
 
-        <section id="meusArtigos">
-            <h2>Meus artigos</h2>
-        </section>
+    </section>
 
-        <section id="contato">
-            <h2>Entre em contato comigo</h2>
-            <form>
-                <input type="text" name="nome">
-                <input type="email" name="email">
-                <textarea name="mensagem" rows="5" cols="50"></textarea>
-                <input type="submit" name="botaoEnviar" value="solicitar contato">
-            
-            </form>
-        </section>
+    <section id="meusArtigos">
+        <h2>Meus artigos</h2>
+        <div class="artigos cards-em-linha">
+            <article class="card">
+                <header>
+                    <h3 class="card-titulo">Potfólio profissional usando GitHub Pages</h3>
+                    <span class="data-publicacao">15 abr 2025</span>
+                    <span class="autor">Pedro Gomes </span>
+                </header>
 
-        <footer id="rodape">
-            <p>Links úteis</p>
+                <p>Crie e publique seu portfólio profissional usando GitHub Pages, uma maneiora facil e gratuita de
+                    mostrar seus projetos e habilidades.</p>
 
-            <a href="https://sp.senai.br/unidade/automobilistica/" target="_blank">Descubra sobre meu SENAI</a>
-            <p>
+                <footer>
+                    <button type="button" class="botao botao-continue">Continue lendo</button>
+                    <button type="button" class="botao botao-compartilhar">Compartilhar</button>
+                </footer>
+            </article>
+
+            <article class="card">
+                <header>
+                    <h3 class="card-titulo">Potfólio profissional de HTML </h3>
+                    <span class="data-publicacao">15 abr 2025</span>
+                    <span class="autor">Pedro Gomes </span>
+                </header>
+
+                <p>Aprenda a usar HTML em seus codigos de um jeito facil.</p>
+
+                <footer>
+                    <button type="button" class="botao botao-continue">Continue lendo</button>
+                    <button type="button" class="botao botao-compartilhar">Compartilhar</button>
+                </footer>
+            </article>
+
+            <article class="card">
+                <header>
+                    <h3 class="card-titulo">Potfólio profissional de CSS </h3>
+                    <span class="data-publicacao">15 abr 2025</span>
+                    <span class="autor">Pedro Gomes </span>
+                </header>
+
+                <p>Aprenda a utilizar CSS de um jeito facil e rapido .</p>
+
+                <footer>
+                    <button type="button" class="botao botao-continue">Continue lendo</button>
+                    <button type="button" class="botao botao-compartilhar">Compartilhar</button>
+                </footer>
+            </article>
+    </section>
+    <section id="contato">
+        <h2>Entre em contato comigo</h2>
+        <form>
+            <input type="text" name="nome">
+            <input type="email" name="email">
+            <textarea name="mensagem" rows="5" cols="50"></textarea>
+            <input type="submit" name="botaoEnviar" value="solicitar contato">
+
+        </form>
+        </div>
+    </section>
+
+
+    <footer id="rodape">
+        <p>Links úteis</p>
+
+        <a href="https://sp.senai.br/unidade/automobilistica/" target="_blank">Descubra sobre meu SENAI</a>
+        <p>
             <a href="https://github.com/Prof-Edgard" target="_blank">Portfólio do meu professor</a>
-            </p>
-            <p>
-                <a href="https://github.com/JoaoRoccella" target="_blank">Portfólio do meu professor</a>
-                </p>
-                
-            <p>desenvolvido por leozinho</p>
-        </footer>
-        
-    </body>
-</html> 
+        </p>
+        <p>
+            <a href="https://github.com/JoaoRoccella" target="_blank">Portfólio do meu professor</a>
+        </p>
+
+        <p>desenvolvido por Pedro Gomes</p>
+    </footer>
+    <script>
+        document.querySelector('#botao-tema').addEventListener('click', trocaTema);
+
+        function trocaTema() {
+            const root = document.documentElement;
+
+            if (root.getAttribute('data-theme') === 'dark') {
+                root.removeAttribute('data-theme');
+            } else {
+                root.setAttribute('data-theme', 'dark')
+            }
+        }
+    </script>
+
+    <script>
+        document.querySelector('#botao-daltonico').addEventListener('click', trocaTema);
+
+        function trocaTema() {
+            const root = document.documentElement;
+
+            if (root.getAttribute('data-theme') === 'daltonico') {
+                root.removeAttribute('data-theme');
+            } else {
+                root.setAttribute('data-theme', 'daltonico')
+            }
+        }
+    </script>
+</body>
+
+</html>
